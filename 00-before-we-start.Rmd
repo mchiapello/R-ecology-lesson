@@ -14,7 +14,7 @@ knitr::opts_chunk$set(results='hide', fig.path='img/r-lesson-')
 >
 > After completing this module, the learner should be able to:
 >
-> * Describe the purpose of the RStudio script, console, environment, and plot windows.
+> * Describe the purpose of the *RStudio* script, console, environment, and plot windows.
 > * Organize files and directories for a set of analysis in an R Project.
 > * Define the following terms as they relate to R: script, function, working directory, assign, object, variable.
 > * Assign values to variables.
