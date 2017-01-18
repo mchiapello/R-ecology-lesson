@@ -172,10 +172,11 @@ hidden.
 >
 > Boxplots are useful summaries, but hide the *shape* of the distribution. For
 > example, if there is a bimodal distribution, this would not be observed with a
-> boxplot. An alternative to the boxplot is the violin plot (sometimes known as a
+> boxplot. An alternative to the boxplot is the **violin plot** (sometimes known as a
 > beanplot), where the shape (of the density of points) is drawn.
 >
-> - Replace the box plot with a violin plot; see `geom_violin()`
+> 1. Replace the box plot for we produced for `species_id` and `hindfoot_length`
+>    with a violin plot; see `geom_violin()`
 >
 > In many types of data, it is important to consider the *scale* of the
 > observations.  For example, it may be worth changing the scale of the axis to
@@ -183,12 +184,9 @@ hidden.
 > of the axes is done similarly to adding/modifying other components (i.e., by
 > incrementally adding commands).
 >
-> - Represent weight on the log10 scale; see `scale_y_log10()`
->
-> - Create boxplot for `hindfoot_length`.
->
-> - Add color to the datapoints on your boxplot according to the plot from which
->   the sample was taken (`plot_id`)
+> 2. Create boxplot for `species_id` and `weight` and represent `weight` on the log10 scale; 
+>    see `scale_y_log10()`. Then add color to the datapoints on your boxplot according 
+>    to the plot from which the sample was taken (`plot_id`)
 
 Hint: Check the class for `plot_id`. Consider changing the class of `plot_id`
 from integer to factor. Why does this change how R makes the graph?
