@@ -150,6 +150,7 @@ surveys_plot + geom_point(alpha = 0.1, aes(color=species_id))
 Visualising the distribution of `hindfoot_length` within each species.
 
 ```{r boxplot, purl=FALSE}
+surveys_plot <- ggplot(data = surveys_complete, aes(x = species_id, y = hindfoot_length))
 surveys_plot + geom_boxplot()
 ```
 
@@ -162,7 +163,7 @@ surveys_plot + geom_boxplot(alpha = 0) + geom_jitter(alpha = 0.3, color = "tomat
 
 Notice how the boxplot layer is behind the jitter layer? What do you need to
 change in the code to put the boxplot in front of the points such that it's not
-hidden.
+hidden?
 
 > ### Challenges
 >
