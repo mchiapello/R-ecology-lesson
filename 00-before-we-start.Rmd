@@ -10,6 +10,8 @@ knitr::opts_chunk$set(results='hide', fig.path='img/r-lesson-')
 
 ------------
 
+CIOAOAOAOAOAOAO
+
 > ## Learning Objectives
 >
 > After completing this module, the learner should be able to:
